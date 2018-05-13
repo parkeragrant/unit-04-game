@@ -1,0 +1,85 @@
+body { 
+    background-image: url('https://i.imgur.com/JTjy2Of.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.box {
+    position:relative;
+}
+  
+.img-title {
+    position: absolute;
+    font-size: 1%;
+    color: #fff;
+    text-align: center;
+    left: 0px;
+    right: 22px;
+    top: 225px;
+    letter-spacing: 3px;
+}
+
+.img-title-fight {
+    position: absolute;
+    font-size: 1%;
+    color: #fff;
+    text-align: center;
+    left: 25px;
+    right: 22px;
+    top: 225px;
+    letter-spacing: 3px;
+}
+
+.health-points {
+    position: absolute;
+    color: #fff;
+    left: 65px;
+    bottom: 0px;
+    top: 50px;
+    /* text-align: left;
+    left: 0;
+    right: 45px;
+    top: 225px; */
+    letter-spacing: 3px;
+}
+
+.health-points-fight {
+    position: absolute;
+    color: #fff;
+    left: 200px;
+    bottom: 0px;
+    top: 50px;
+    /* text-align: left;
+    left: 0;
+    right: 45px;
+    top: 225px; */
+    letter-spacing: 3px;
+}
+
+.char-images {
+    width: 240px;
+    height: 338px;
+    max-width: 240px;
+    max-height: 338px;
+}
+
+.player-images {
+    width: 240px;
+    height: 338px;
+    max-width: 240px;
+    max-height: 338px;
+}
+
+#defeated-images {
+    max-width: 150px;
+    max-height: 200px;
+    position: relative;
+    left: 110px; 
+    margin: 10px;
+}
+
+#instructions {
+    position: relative;
+}
